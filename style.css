@@ -9,8 +9,8 @@ header {
 }
 
 ul {
-    list-style: none;
     display: inline-block;
+    list-style: none;
     padding: 9px;
 }
 
