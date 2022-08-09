@@ -1,1 +1,1 @@
-# eduweb
+# Eucational Website
