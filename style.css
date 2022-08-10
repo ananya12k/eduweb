@@ -4,14 +4,35 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
+header ul li {
     width: 100%;
+    display: inline;
+    color: black;
+    background-color: coral;
+    padding: 18px;
+    border-radius: 10px;
+
 }
 
 ul {
-    display: inline-block;
     list-style: none;
-    padding: 9px;
+}
+
+.logo {
+    position: absolute;
+    float: left;
+    border-bottom: solid 2px blue;
+    margin-left: 2px;
+    width: 100%;
+    padding-bottom:25px ;
+}
+
+.navbar {
+    float: right;
+    position: relative;
+    padding: 2px;
+
+    
 }
 
 a {
