@@ -1,45 +1,74 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+body{
+    font-family:sans-serif;
+    margin:0;
+    padding:0;
 }
-
-header ul li {
+.navbar{
+    background: url(images/background.jpg) no-repeat center center ;
+    min-height: 30rem;
+    background-size: 100% 100%;
+}
+nav{
     width: 100%;
-    display: inline;
-    color: black;
-    background-color: coral;
-    padding: 18px;
-    border-radius: 10px;
-
+    height: 80px;
+    background-color: #0005;
+    line-height: 80px;
 }
-
-ul {
+nav ul{
+    float: right;
+    margin: 0;
+    margin-right: 1.9rem;
+}
+nav ul li{
+    display: inline-block;
     list-style: none;
 }
-
-.logo {
-    position: absolute;
-    float: left;
-    border-bottom: solid 2px blue;
-    margin-left: 2px;
-    width: 100%;
-    padding-bottom:25px ;
-}
-
-.navbar {
-    float: right;
-    position: relative;
-    padding: 2px;
-
-    
-}
-
-a {
+nav ul a{
     text-decoration: none;
-    color: inherit;
+    color: #fff;
+    padding: 20px;
+}
+img
+{
+    width: 14%;
+    margin-left: 1.9rem;
+    margin-top: -4%;
+}
+nav ul li:hover{
+    background-color: coral;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.0rem;
+}
+.section{
+
+width: 80%;
+margin: auto;
+overflow: hidden;
+margin-top: 4%;
+}
+.section h1{
+    color: #fff;
+    line-height: 50px;
+}
+.section p{
+    color: rgb(86, 78, 78);
+}
+.button_1{
+background-color: orangered;
+border: none;
+border-radius: 10px;
+padding: 0.7rem 1rem;
+}
+.features{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.features button{
+    padding: 0.7rem 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
 }
 
-a:hover {
-    text-decoration: underline;
-}
+
