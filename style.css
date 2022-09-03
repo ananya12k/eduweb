@@ -2,6 +2,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    background: #c89ddb;
 }
 
 .navbar {
@@ -70,7 +71,10 @@ nav ul li:hover {
     border-radius: 10px;
     padding: 0.7rem 1rem;
 }
-
+.buttons_2
+{
+    color: #44237a;
+}
 .features {
     margin-top: 4%;
     margin-bottom: 2%;
@@ -92,7 +96,7 @@ showcase h1 {
 #courses {
     display: flex;
     text-align: center;
-
+    background: #9ddba7;
 }
 
 #courses img {
